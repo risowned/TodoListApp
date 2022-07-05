@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.h1,
+.tableHead {
+  border-bottom: solid 3px rgb(157, 241, 157);
+  background-color: rgb(46, 133, 46);
+  color: white;
+  font-weight: bold;
+}
+
+.tableBody {
+  background-color: rgb(218, 216, 216);
+  font-weight: bold;
+  color: rgb(69, 110, 111);
+}
+.searchDiv {
+  padding-top: 25px;
+}
+.searchBar {
+  width: 50%;
+  box-shadow: 2px 2px gray;
+  background-color: rgb(241, 237, 237);
+  border-radius: 2%;
+  color: rgb(69, 110, 111);
+}
+
+.addNewToDo {
+  padding-top: 25px;
+}
